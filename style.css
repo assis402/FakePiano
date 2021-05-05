@@ -10,6 +10,7 @@ body{
     display: flex;
     height: calc(100vh - 20px);
     justify-content: center;
+    min-height: 600px;
     align-items: center;
     text-align: center;
     font-family: 'Oldenburg', cursive;
@@ -20,12 +21,12 @@ body{
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 65px;
+    padding-bottom: 40px;
+    margin: 0;
 }
 
 .container {
-    overflow: hidden;
-    position: absolute;
     margin-bottom: 100px;
 }
 
@@ -33,7 +34,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-top: 20px;
+    padding-top: 50px;
     align-items: center;
     color: rgb(0 0 0 / 47%);
 }
@@ -79,36 +80,36 @@ h1 {
 
 .white{
     background-color: rgb(255, 255, 255);
-    width: 50px;
-    height: 300px;
+    width: 40px;
+    height: 240px;
     border: 1px solid #000;
 }
 
 .black{
     position: absolute;
     background-color: rgb(0, 0, 0);
-    width: 30px;
-    height: 160px;
+    width: 28px;
+    height: 128px;
 }
 
 .cs {
-    left: 35px;
+    left: 27px;
 }
 
 .ds {
-    left: 85px;
+    left: 67px;
 }
 
 .fs {
-    left: 185px;
+    left: 147px;
 }
 
 .gs {
-    left: 235px;
+    left: 187px;
 }
 
 .as {
-    left: 285px;
+    left: 227px;
 }
 
 .selected-white {
